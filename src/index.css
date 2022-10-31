@@ -1,0 +1,39 @@
+:root {
+--cookie-method:#8fcdff;
+--cookie-num:#d2a8ff;
+--cookie-comment:#b1b1b1;
+--cookie-string:#f3e880;
+--cookie-variable:#ef9b51;
+--cookie-keyword:#f92672;
+--cookie-operator:#f92672;
+--cookie-data-type:#d2a8ff;
+--cookie-line-num:#b1b1b1;
+--cookie-bg:#2d2d35;
+--cookie-fg:#eeedff
+}
+pre {
+  background-color:var(--cookie-bg);
+  color:var(--cookie-fg);
+  overflow:auto;
+  overflow-wrap:break-word;
+  padding:16px;
+  margin:0;
+  white-space:pre;
+  }
+  .d-flex,pre{display:flex}
+  .flex-column{flex-direction:column}
+  .cookie-fg{color:var(--cookie-fg)}
+  
+  .cookie-line-num{color:var(--cookie-line-num);margin-right:12px}
+  .cookie-line-num:hover{color:var(--cookie-comment)}
+  .cookie-method{color:var(--cookie-method)}
+  .cookie-num{color:var(--cookie-num)}
+  .cookie-string{color:var(--cookie-string)}
+  .cookie-keyword{color:var(--cookie-keyword)}
+  .cookie-comment{color:var(--cookie-comment)}
+  .cookie-variable{color:var(--cookie-variable)}
+  .cookie-spkey{color:var(--cookie-spkey)}
+  .cookie-operator{color:var(--cookie-operator)}
+  .cookie-data-type{color:var(--cookie-data-type)}
+  .cookie-italic{font-style:italic}
+  .cookie-bold{font-weight:700}
