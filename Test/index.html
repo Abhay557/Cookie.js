@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie</title>
+  <link rel="stylesheet" href="./src/index.css">
+  <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+  <div class="557">
+   <div class="box-cookie">
+    <span style="background-color:#ff5f56"></span>
+    <span style="background-color:#ffbd2e"></span>
+    <span style="background-color:#27c93f"></span>
+  </div>
+        <pre data-language="javascript">
+  const axios = require("axios");
+  
+  const getData = async (animename) => {
+  let url = `http://www.cookie-api.ml/api/anime
+  /search?name=${animename}`;
+  
+  await axios.get(url)
+  .then(function (response) {
+    console.log(response.data);
+     })
+  };
+  getData("Naruto"); // Example - Naruto
+  </pre>
+     </div>
+      <script src="./src/index.js"></script>
+      <script src="main.js"></script>
+      </body>
+      </html>
