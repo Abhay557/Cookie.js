@@ -1,0 +1,167 @@
+[data-theme="tomorrow"] {
+  --cookie-bg: #1d1f21;
+  --cookie-fg: #ccc;
+  --cookie-method: #f08d49;
+  --cookie-spkey:#cc99cd;
+  --cookie-num: #f08d49;
+  --cookie-string: #7ec699;
+  --cookie-comment: #999;
+  --cookie-keyword: #cc99cd;
+  --cookie-variable: #f08d49;
+  --cookie-operator:#67cdcc;  
+  --cookie-data-type:#cc99cd;
+}
+
+[data-theme="onedark"] {
+  --cookie-bg: #1a2231;
+  --cookie-fg: #d5d5d5;
+  --cookie-method: #61aeee;
+  --cookie-spkey:#61aeee;
+  --cookie-num: #d19a66;
+  --cookie-string: #98c379;
+  --cookie-comment: #ad937c;
+  --cookie-keyword: #c678dd;
+  --cookie-variable: #BE5046;
+  --cookie-operator:#d5d5d5;  
+  --cookie-data-type:#c678dd;
+}
+
+[data-theme="material"] {
+  --cookie-bg: #1f2937;
+  --cookie-fg: #EEFFFF;
+  --cookie-method: #82AAFF;
+  --cookie-spkey:#82AAFF;
+  --cookie-num: #FF5370;
+  --cookie-string: #C3E88D;
+  --cookie-comment: #6a737d;
+  --cookie-keyword: #C792EA;
+  --cookie-variable: #dc7c23;
+  --cookie-operator:#b4c0ff;  
+  --cookie-data-type:#d2a8ff;
+}
+
+[data-theme="monokai-pro"] {
+  --cookie-bg: #2d2a2e;
+  --cookie-fg: #fcfcfa;
+  --cookie-method: #a9dc76;
+  --cookie-spkey:#ab9df2;
+  --cookie-num: #ab9df2;
+  --cookie-string: #ffd866;
+  --cookie-comment: #727072;
+  --cookie-keyword: #78dce8;
+  --cookie-variable: #ff6188;
+  --cookie-operator:#ff6188;  
+  --cookie-data-type:#79c0ff;
+}
+
+[data-theme="github-dark"] {
+  --cookie-bg: #0d1117;
+  --cookie-fg: #c9d1d9;
+  --cookie-method: #b392f0;
+  --cookie-spkey:#b392f0;
+  --cookie-num: #79c0ff;
+  --cookie-string: #9ecbff;
+  --cookie-comment: #8b949e;
+  --cookie-keyword: #ff7b72;
+  --cookie-variable: #c9d1d9;
+  --cookie-operator:#c9d1d9;  
+  --cookie-data-type:#79c0ff;
+}
+
+[data-theme="vscode-dark"] {
+  --cookie-bg: #1e1e1e;
+  --cookie-fg: #D8DEE9;
+  --cookie-method: #569cd6;
+  --cookie-spkey:#569cd6;
+  --cookie-num: #b5cea8;
+  --cookie-string: #ce9178;
+  --cookie-comment: #7caf3d;
+  --cookie-keyword: #569cd6;
+  --cookie-variable: #88C0D0;
+  --cookie-operator:#D8DEE9;  
+  --cookie-data-type:#D8DEE9;
+}
+
+[data-theme="night"] {
+  --cookie-bg: #2e3440ff;
+  --cookie-fg: #D8DEE9;
+  --cookiecookie-method: #88C0D0;
+  --cookie-spkey:#88C0D0;
+  --cookie-num: #B48EAD;
+  --cookie-string: #A3BE8C;
+  --cookie-comment: #616E88;
+  --cookie-keyword: #81A1C1;
+  --cookie-variable: #88C0D0;
+  --cookie-operator:#81A1C1;  
+  --cookie-data-type:#81A1C1;
+}
+
+[data-theme="deepdark"] {
+  --cookie-bg: #080808;
+  --cookie-fg: #f8f8f2;
+  --cookie-method: #ef5350;
+  --cookie-spkey:#ef5350;
+  --cookie-num: #d0d0d0;
+  --cookie-string: #69f0ae;
+  --cookie-comment: #808080;
+  --cookie-keyword: #e6e34a;
+  --cookie-variable: #69f0ae;
+  --cookie-operator:#ff5e5e;  
+  --cookie-data-type:#69f0ae;
+}
+
+[data-theme="hackpot"] {
+  --cookie-bg: #003030;
+  --cookie-fg: #b1e7b1;
+  --cookie-method: #32cd32;
+  --cookie-spkey:#32cd32;
+  --cookie-num: #e56697;
+  --cookie-string: #1fada6;
+  --cookie-comment: #1e621e;
+  --cookie-keyword: #9f6934;
+  --cookie-variable: #b1e7b1;
+  --cookie-operator:#ffb84d;  
+  --cookie-data-type:#1fada6;
+}
+
+[data-theme="dracula"] {
+  --cookie-bg: #21222c;
+  --cookie-fg: #f8f8f2;
+  --cookie-method: #8be9fd;
+  --cookie-spkey:#8be9fd;
+  --cookie-num: #bd93f9;
+  --cookie-string: #f1fa8c;
+  --cookie-comment: #6272a4;
+  --cookie-keyword: #ff79c6;
+  --cookie-variable: #ff79c6;
+  --cookie-operator:#ff79c6;  
+  --cookie-data-type:#bd93f9;
+}
+
+[data-theme="chroma"] {
+  --cookie-bg: #202020;
+  --cookie-fg: #d0d0d0;
+  --cookie-method: #447fcf;
+  --cookie-spkey:#447fcf;
+  --cookie-num: #d0d0d0;
+  --cookie-string: #ed9d13;
+  --cookie-comment: #6a737d;
+  --cookie-keyword: #6ab825;
+  --cookie-variable: #ffffff;
+  --cookie-operator:#f92672;  
+  --cookie-data-type:#bd93f9;
+}
+
+[data-theme="blackboard"] {
+  --cookie-bg: #0C1021;
+  --cookie-fg: #F8F8F8;
+  --cookie-method: #8DA6CE;
+  --cookie-spkey:#8DA6CE;
+  --cookie-num: #D8FA3C;
+  --cookie-string: #61CE3C;
+  --cookie-comment: #6a737d;
+  --cookie-keyword: #FBDE2D;
+  --cookie-variable: #ffffff;
+  --cookie-operator:#FBDE2D;
+  --cookie-data-type:#D8FA3C;
+}
