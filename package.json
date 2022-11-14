@@ -1,0 +1,8 @@
+{
+  "name": "new-project",
+  "author": "Abhay Mourya ",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}
