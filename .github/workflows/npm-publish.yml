@@ -18,6 +18,6 @@ jobs:
                   registry-url: https://registry.npmjs.org
             - name: Cookie Package
               run: npm publish --access public
-              working-directory: my-package
+              working-directory: bulid
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
