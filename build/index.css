@@ -1,0 +1,41 @@
+:root {
+--cookie-method:#E01E1E;
+--cookie-num:#d2a8ff;
+--cookie-comment:#ceb18d;
+--cookie-string:#1C9B40;
+--cookie-variable:#3556E3;
+--cookie-keyword:#b11fff;
+--cookie-operator:#E01E1E;
+--cookie-data-type:#d2a8ff;
+--cookie-spkey:#8DA6CE;
+--cookie-line-num:#b1b1b1;
+--cookie-bg:#2d2d35;
+--cookie-fg:#b1b1b1;
+--cookie-dg:#FFFFFF
+}
+pre {
+  background-color:var(--cookie-dg);
+  color:var(--cookie-fg);
+  overflow:auto;
+  overflow-wrap:break-word;
+  padding:16px;
+  margin:0;
+  white-space:pre;
+  }
+  .d-flex,pre{display:flex}
+  .flex-column{flex-direction:column}
+  .cookie-fg{color:var(--cookie-fg)}
+  
+  .cookie-line-num{color:var(--cookie-line-num);margin-right:12px}
+  .cookie-line-num:hover{color:var(--cookie-comment)}
+  .cookie-method{color:var(--cookie-method)}
+  .cookie-num{color:var(--cookie-num)}
+  .cookie-string{color:var(--cookie-string)}
+  .cookie-keyword{color:var(--cookie-keyword)}
+  .cookie-comment{color:var(--cookie-comment)}
+  .cookie-variable{color:var(--cookie-variable)}
+  .cookie-spkey{color:var(--cookie-spkey)}
+  .cookie-operator{color:var(--cookie-operator)}
+  .cookie-data-type{color:var(--cookie-data-type)}
+  .cookie-italic{font-style:italic}
+  .cookie-bold{font-weight:700}
