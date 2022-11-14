@@ -1,8 +1,30 @@
 {
-  "name": "new-project",
-  "author": "Abhay Mourya ",
-  "publish": false,
-  "dependencies": {
-    "lib": "latest"
-  }
+  "name": "Cookie",
+  "version": "1.0.0",
+  "description": "Cookie - Fastest Syntax Highlighter",
+  "main": "build/index.js",
+  "module": "build/index.esm.js",
+  "browser": "build/index.umd.js",
+  "style": "build/index.css",
+  "scripts": {
+    "dev": "lite-server",
+    "watch": "rollup -w -c",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhay557/Cookie.js.git"
+  },
+  "keywords": [
+    "abhay557",
+    "code",
+    "highlighter",
+    "cookie"
+  ],
+  "author": "Abhay Mourya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abhay557/Cookie.js/issues"
+  },
+  "homepage": "https://github.com/Abhay557/Cookie.js#readme",
 }
