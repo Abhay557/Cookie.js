@@ -6,11 +6,10 @@
   "module": "build/index.esm.js",
   "browser": "build/index.umd.js",
   "style": "build/index.css",
-  "scripts": {
-    "dev": "lite-server",
-    "watch": "rollup -w -c",
-    "build": "rollup -c"
-  },
+  "files": [
+        "src/index.js",
+        "src/index.css",
+    ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Abhay557/Cookie.js.git"
